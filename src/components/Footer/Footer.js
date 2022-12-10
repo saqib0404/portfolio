@@ -1,20 +1,26 @@
 import React from 'react';
+import { toast } from 'react-hot-toast';
 
 const Footer = () => {
+    const subscribe = e => {
+        e.preventDefault();
+        toast.success('Subscribed')
+        e.target.reset();
+    }
     return (
         <footer className="footer items-center p-4 bg-neutral text-neutral-content mt-16">
             <div className="items-center grid-flow-col">
                 <p className='text-lg'><span className='font-bold'>Saqib Ahmad</span> © 2022 - All right reserved</p>
             </div>
             <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <div class="form-control w-80">
-                    <label class="label">
-                        <span class="label-text">Enter your email address</span>
+                <div className="form-control w-80">
+                    <label className="label">
+                        <span className="label-text">Enter your email address</span>
                     </label>
-                    <div class="relative">
-                        <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />
-                        <button class="btn btn-info absolute top-0 right-0 rounded-l-none">Subscribe</button>
-                    </div>
+                    <form onSubmit={subscribe} className="relative">
+                        <input type="email" name='subscrber' placeholder="username@site.com" className="input input-bordered w-full pr-16" required />
+                        <button className="btn btn-info absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                    </form>
                 </div>
 
             </div>
