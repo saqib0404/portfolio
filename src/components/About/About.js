@@ -20,7 +20,8 @@ const About = () => {
                         <a className='text-4xl hover:text-blue-700' target='_blank' href="https://www.facebook.com/saqib.ahmad.52459615"><AiFillFacebook /></a>
                     </div>
                     <div>
-                        <p className='text-center md:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus laborum maxime laudantium quos aliquam iure ex molestiae iste sequi nihil.</p>
+                        <p className='text-center md:text-left'>I am a driven and focused young Frontend Developer. I have experience using React.js to build Frontend
+programs. I am dedicated to this work and I'm committed to it. Recently I completed a professional course of 6 months from Programming Hero. Now I have professional skills to build MEAR stack websites and have also done some projects. I count myself as a hard-working, disciplined, and deadline-oriented person.</p>
                     </div>
                     <div className='flex justify-center md:justify-start'>
                         <button className='btn  my-4'>Let's Talk</button>
