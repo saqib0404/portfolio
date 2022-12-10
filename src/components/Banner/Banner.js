@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import resume from '../../assets/Saqib Ahmad-Resume.pdf';
 
 const Banner = () => {
@@ -14,7 +15,7 @@ const Banner = () => {
 
                 <div className='mb-10 md:mb-0'>
                     <a className='btn btn-outline mr-3 md:mb-2' href={resume} download>Download Resume</a>
-                    <button className='btn'>Lets Talk</button>
+                    <Link to="contacts" spy={true} smooth={true} offset={50} duration={500} ><button className='btn'>Lets Talk</button></Link>
                 </div>
 
             </div>
