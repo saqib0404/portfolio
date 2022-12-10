@@ -17,13 +17,14 @@ const Nav = () => {
         //     <a onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' && 'active'} href="#projects"><AiOutlineFundProjectionScreen /></a>
         //     <a onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' && 'active'} href="#contacts"><BiMessageDots /></a>
         // </nav>
-        <nav>
-            <Link onClick={() => setActiveNav('home')} className={activeNav === 'home' ? 'active' : ''} to="home" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineHome /></Link>
-            <Link onClick={() => setActiveNav('about')} className={activeNav === 'about' ? 'active' : ''} to="about" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineUser /></Link>
-            <Link onClick={() => setActiveNav('skills')} className={activeNav === 'skills' ? 'active' : ''} to="skills" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineBulb /></Link>
-            <Link onClick={() => setActiveNav('projects')} className={activeNav === 'projects' ? 'active' : ''} to="projects" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineFundProjectionScreen /></Link>
-            <Link onClick={() => setActiveNav('contacts')} className={activeNav === 'contacts' ? 'active' : ''} to="contacts" spy={true} smooth={true} offset={50} duration={500} ><BiMessageDots /></Link>
-        </nav>
+        // <nav>
+        //     <Link onClick={() => setActiveNav('home')} className={activeNav === 'home' ? 'active' : ''} to="home" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineHome /></Link>
+        //     <Link onClick={() => setActiveNav('about')} className={activeNav === 'about' ? 'active' : ''} to="about" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineUser /></Link>
+        //     <Link onClick={() => setActiveNav('skills')} className={activeNav === 'skills' ? 'active' : ''} to="skills" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineBulb /></Link>
+        //     <Link onClick={() => setActiveNav('projects')} className={activeNav === 'projects' ? 'active' : ''} to="projects" spy={true} smooth={true} offset={50} duration={500} > <AiOutlineFundProjectionScreen /></Link>
+        //     <Link onClick={() => setActiveNav('contacts')} className={activeNav === 'contacts' ? 'active' : ''} to="contacts" spy={true} smooth={true} offset={50} duration={500} ><BiMessageDots /></Link>
+        // </nav>
+        <></>
     );
 };
 

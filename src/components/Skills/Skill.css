@@ -5,7 +5,7 @@
     border: 1px solid transparent;
     transition: ease-in 200ms;
 }
-.skill-container>div:hover {
+/* .skill-container>div:hover {
     background:transparent;
     border: 1px solid rgb(13, 13, 49);
-}
+} */

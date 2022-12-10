@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section id='about' className='pt-20 md:pt-28 md:mx-32'>
             <div className="section-header text-center"><h2 className='text-3xl font-semibold underline mb-6'>About ME</h2></div>
-            {/* <div className='md:flex gap-8 items-center justify-around'> */}
+            
             <div className='md:grid grid-cols-2 gap-12 items-center'>
                 <div className='about-me'>
                     <div className="about-me-img">
@@ -15,9 +15,9 @@ const About = () => {
                 </div>
                 <div className="about-me-content md:w-11/12">
                     <div className="socials flex justify-center gap-8  my-6">
-                        <a className='text-2xl hover:text-3xl' target='_blank' href="https://www.linkedin.com/in/developer-saqib-ahmad/"><AiFillLinkedin /></a>
-                        <a className='text-2xl hover:text-3xl' target='_blank' href="https://github.com/saqib0404"><AiFillGithub /></a>
-                        <a className='text-2xl hover:text-3xl' target='_blank' href="https://www.facebook.com/saqib.ahmad.52459615"><AiFillFacebook /></a>
+                        <a className='text-4xl hover:text-blue-700' target='_blank' href="https://www.linkedin.com/in/developer-saqib-ahmad/"><AiFillLinkedin /></a>
+                        <a className='text-4xl hover:text-blue-700' target='_blank' href="https://github.com/saqib0404"><AiFillGithub /></a>
+                        <a className='text-4xl hover:text-blue-700' target='_blank' href="https://www.facebook.com/saqib.ahmad.52459615"><AiFillFacebook /></a>
                     </div>
                     <div>
                         <p className='text-center md:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus laborum maxime laudantium quos aliquam iure ex molestiae iste sequi nihil.</p>

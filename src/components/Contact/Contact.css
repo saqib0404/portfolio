@@ -1,0 +1,10 @@
+.submit-btn{
+    border-radius: 8px;
+    border-bottom-right-radius: 24px;
+    background: rgb(26, 26, 26);
+    padding: 12px 28px;
+    transition: ease-in 100ms;
+}
+.submit-btn:hover{
+    background: rgb(0, 0, 0);
+}
