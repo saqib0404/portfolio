@@ -3,7 +3,7 @@ import resume from '../../assets/Saqib Ahmad-Resume.pdf';
 
 const Banner = () => {
     return (
-        <div className='flex-col md:flex-row flex items-center justify-between pt-16 md:pt-28 md:mx-32'>
+        <div id='home' className='flex-col md:flex-row flex items-center justify-between pt-16 md:pt-28 md:mx-32'>
             <div>
 
                 <div className='text-center md:text-left'>

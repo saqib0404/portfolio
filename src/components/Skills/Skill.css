@@ -1,0 +1,11 @@
+.skill-container>div {
+    background: rgb(13, 13, 49);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: ease-in 200ms;
+}
+.skill-container>div:hover {
+    background:transparent;
+    border: 1px solid rgb(13, 13, 49);
+}

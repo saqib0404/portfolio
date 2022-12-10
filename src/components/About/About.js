@@ -4,10 +4,10 @@ import './About.css';
 
 const About = () => {
     return (
-        <section className='pt-20 md:pt-28 md:mx-32'>
-            <div className="section-header text-center"><h2 className='text-2xl font-semibold underline mb-6'>About ME</h2></div>
+        <section id='about' className='pt-20 md:pt-28 md:mx-32'>
+            <div className="section-header text-center"><h2 className='text-3xl font-semibold underline mb-6'>About ME</h2></div>
             {/* <div className='md:flex gap-8 items-center justify-around'> */}
-            <div className='md:grid grid-cols-2 gap-28 items-center'>
+            <div className='md:grid grid-cols-2 gap-12 items-center'>
                 <div className='about-me'>
                     <div className="about-me-img">
                         <img className='hidden md:block' src="https://i.ibb.co/Jy26gS3/28.jpg" alt="" />
