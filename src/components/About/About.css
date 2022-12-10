@@ -1,0 +1,35 @@
+.socials a {
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.about-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            #4646a8,
+            transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about-me-img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all;
+    transition: ease-in 200ms;
+
+}
+
+.about-me-img:hover {
+    transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .about-me {
+        width: 0;
+    }
+}
