@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineArrowRight } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import imaa from '../../assets/saqib (33).jpg';
 
 import './About.css';
 
@@ -12,7 +13,7 @@ const About = () => {
             <div className='md:grid grid-cols-2 gap-12 items-center'>
                 <div className='about-me' data-aos="zoom-in-up" data-aos-duration="1000">
                     <div className="about-me-img">
-                        <img className='hidden md:block' src="https://i.ibb.co/Jy26gS3/28.jpg" alt="" />
+                        <img className='hidden md:block' src={imaa} alt="" />
                     </div>
                 </div>
                 <div className="about-me-content md:w-11/12"  data-aos="zoom-in-up" data-aos-duration="1000">

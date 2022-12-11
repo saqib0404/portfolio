@@ -5,6 +5,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Portfolio from '../Portfolio/Portfolio';
 import Skills from '../Skills/Skills';
+import imaa from '../../assets/saqib (23).jpg'
 
 const Banner = () => {
     return (
@@ -27,7 +28,8 @@ const Banner = () => {
 
 
                 <div data-aos="fade-up-left" data-aos-duration="1000">
-                    <img className='w-64 md:w-80 rounded-xl md:rounded-full border border-blue-500' src="https://i.ibb.co/Jy26gS3/28.jpg" alt="me" />
+                    {/* <img className='w-64 md:w-80 rounded-xl md:rounded-full border border-blue-500' src="https://i.ibb.co/Jy26gS3/28.jpg" alt="me" /> */}
+                    <img className='w-64 md:w-80 rounded-xl md:rounded-full border border-blue-500' src={imaa} alt="me" />
                 </div>
 
             </div>
