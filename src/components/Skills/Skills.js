@@ -5,10 +5,10 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 const Skills = () => {
     return (
         <section id='skills' className='pt-20 md:pt-28 md:mx-32'>
-            <div className="section-header text-center"><h2 className='text-3xl font-semibold underline mb-6'>My Skills</h2></div>
+            <div data-aos="zoom-in" data-aos-duration="1000" className="section-header text-center"><h2 className='text-3xl font-semibold underline mb-6'>My Skills</h2></div>
 
             <div className='skill-container mx-2 md:mx-0 text-white  grid grid-cols-1 lg:grid-cols-2 gap-8'>
-                <div className="frontend-skill">
+                <div className="frontend-skill" data-aos="fade-right" data-aos-duration="1000">
                     <h3 className='text-xl text-center mb-2'>Frontend</h3>
                     <div className="skill-container  grid grid-cols-2">
                         <article className='skill-details flex items-center gap-5 my-4'>
@@ -56,7 +56,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="backend-skill">
+                <div className="backend-skill" data-aos="fade-left" data-aos-duration="1000">
                     <h3 className='text-xl text-center mb-2'>Backend</h3>
                     <div className="skill-container  grid grid-cols-2">
                         <article className='skill-details flex items-center gap-5 my-4'>

@@ -5,7 +5,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { AiOutlineBulb } from 'react-icons/ai';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { BiMessageDots } from 'react-icons/bi';
-import { Link } from 'react-scroll';
+
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('')

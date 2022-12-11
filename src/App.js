@@ -1,13 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import About from './components/About/About';
 import Banner from './components/Banner/Banner';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Nav from './components/Nav/Nav';
-import Portfolio from './components/Portfolio/Portfolio';
-import Skills from './components/Skills/Skills';
 import ScaleLoader from "react-spinners/ScaleLoader";
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes/routes';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -18,7 +14,7 @@ function App() {
     }, 1000)
   }, [])
   return (
-    <div className='background-pattern'>
+    <RouterProvider router={router} className='background-pattern'>
       {
         loading ?
           <div className='flex justify-center items-center h-screen'>
@@ -30,17 +26,11 @@ function App() {
           </div>
           :
           <div>
-            <Banner />
-            <Nav />
-            <About />
-            <Skills />
-            <Portfolio />
-            <Contact />
-            <Footer />
+            <Banner/>
           </div>
       }
 
-    </div>
+    </RouterProvider>
   );
 }
 
