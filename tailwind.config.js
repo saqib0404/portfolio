@@ -3,6 +3,15 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  daisyui: {
+    themes: [
+      {
+        doctorTheme: {
+          accent: "#fff"
+        },
+      },
+    ],
+  },
   theme: {
     extend: {},
   },
